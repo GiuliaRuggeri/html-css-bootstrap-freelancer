@@ -1,3 +1,37 @@
 .wrapper{
-    
+
+}
+
+.cardimage{
+    margin-bottom: 2rem;
+}
+
+.jumboimage{
+    margin-bottom: 1rem;
+}
+
+span{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: solid 1px white;
+}
+
+.fontbold{
+    font-weight: bold;
+}
+
+/* BACKGROUND */
+
+.backgrouddark{
+    background-color: #2C3E50;
+}
+
+.backgroundgreen{
+    background-color: #1ABC9C;
+}
+
+.backgroundfooter1{
+    background-color: #3A546D;
 }
