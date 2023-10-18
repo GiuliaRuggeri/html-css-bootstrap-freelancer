@@ -1,16 +1,53 @@
-.wrapper{
+/* .wrapper{
+
+} */
+
+header{
+    height: 2rem;
+}
+
+.myline1{
+    width: 4rem;
+    height: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    display: inline-block
+}
+
+.myline2{
+    width: 4rem;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 8px;
+    display: inline-block
+}
+
+.buttonwhite{
+    background-color: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.buttonwhite:hover{
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+}
+
+hr{
+    width: 20rem;
+}
+
+#jumbo{
+    padding-top: 2rem;
 
 }
 
-.cardimage{
-    margin-bottom: 2rem;
-}
 
 .jumboimage{
     margin-bottom: 1rem;
 }
 
-span{
+.footericon{
     display: inline-block;
     width: 2rem;
     height: 2rem;
@@ -18,8 +55,30 @@ span{
     border: solid 1px white;
 }
 
+.myburger{
+    filter: invert(1);
+}
+
+
+.buttongreen{
+    background-color: #1ABC9C;
+    width: 6rem;
+    color: white;
+}
+
+.buttongreen:hover{
+    background-color: greenyellow;
+}
+
 .fontbold{
     font-weight: bold;
+}
+
+.imgcontainer {
+
+    position: absolute;
+    top: 0;
+    display: none;
 }
 
 /* BACKGROUND */
@@ -34,4 +93,23 @@ span{
 
 .backgroundfooter1{
     background-color: #3A546D;
+}
+
+/* BONUS */
+
+.footericon:hover{
+    transform: scale(1.5);
+}
+
+span:hover>a{
+    color: lightgreen !important;
+}
+
+.imagecover:hover .cover{
+    display: flex !important;
+
+}
+
+li:hover a{
+    color: grey !important;
 }

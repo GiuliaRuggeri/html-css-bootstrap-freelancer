@@ -7,30 +7,36 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
         rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
         crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Freelancer</title>
 </head>
 
 <body>
-    <header class="backgrouddark">
-        <nav>
-            <div class="container text-white text-center">
-                <div class="wrapper p-2">
-                    <div class="row">
-                        <!-- LOGO -->
-                        <div class="col-6 align-self-center">
-                        <div class="fontbold"> START BOOTSTRAP</div>
-                        </div>
-                        <!-- MENU -->
-                        <div class="col-6 align-self-center">
-                            <i class="fa-solid fa-bars" style="color: #fafafa;"></i>
-                        </div>
-
-                    </div>
-
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top backgrouddark">
+            <div class="container">
+                <a class="navbar-brand text-white fontbold" href="#">
+                    START BOOTSTRAP
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon myburger"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 fontbold">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#">CONTACT</a>
+                        </li>
+                    </ul>
                 </div>
-
             </div>
         </nav>
     </header>
@@ -43,17 +49,35 @@
                         <div class="col-6 col-sm-2">
                             <img class="img-fluid jumboimage" src="img/avatar.svg" alt="avatar">
                         </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-12 text-center text-white">
-                            <h1>START BOOTSTRAP</h1>
-                            <i class="fa-solid fa-star my-2" style="color: #ffffff;"></i>
-                            <p> GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR </p>
-                        </div>
                     </div>
 
                 </div>
+                <div class="row">
+                    <div class="col-12 text-center text-white justify-content-center align-items-center">
+                        <h1>START BOOTSTRAP</h1>
+                        <div class="myline1"></div>
+                        <i class="fa-solid fa-star fa-lg my-4" style="color: #ffffff;"></i>
+                        <div class="myline1"></div>
+                        <div class="mb-2">
+                            <span>
+                                <a class="text-decoration-none text-white" href="#">GRAPHIC ARTIST -</a>
+                            </span>
+                            <span>
+                                <a class="text-decoration-none text-white" href="#">
+                                    WEB DESIGNER -
+                                </a>
+                            </span>
+                            <span>
+                                <a class="text-decoration-none text-white" href="#">
+                                    ILLUSTRATOR
+                                </a>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
             </div>
 
         </section>
@@ -64,48 +88,99 @@
                     <!-- TITLE -->
                     <div class="col-12 text-black">
                         <h4>PORTFOLIO</h4>
-                        <i class="fa-solid fa-star my-2" style="color: #000000;"></i>
+                        <div class="myline2"></div>
+                        <i class="fa-solid fa-star fa-lg my-4" style="color: #000000;"></i>
+                        <div class="myline2"></div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4">
-                        <img class="img-fluid rounded-3 cardimage" src="img/cabin.png" alt="cabin">
+                        <div class="position-relative mb-4 imagecover">
+                            <img class="img-fluid rounded-3" src="img/cabin.png" alt="cabin">
+                            <div
+                                class="img-fluid bg-light bg-opacity-75 position-absolute d-none justify-content-center align-items-center w-100 h-100 top-0 rounded-3 cover">
+                                <i class="fa-solid fa-house-chimney fa-2xl" style="color: #000000;"></i>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="col-12 col-sm-6 col-md-4">
-                        <img class="img-fluid rounded-3 cardimage" src="img/cake.png" alt="cake">
+                        <div class="position-relative mb-4 imagecover">
+                            <img class="img-fluid rounded-3" src="img/cake.png" alt="cake">
+                            <div
+                                class="img-fluid bg-light bg-opacity-75 position-absolute d-none justify-content-center align-items-center w-100 h-100 top-0 rounded-3 cover">
+                                <i class="fa-solid fa-cake-candles fa-2xl" style="color: #000000;"></i>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4">
-                        <img class="img-fluid rounded-3 cardimage" src="img/circus.png" alt="circus">
+                        <div class="position-relative mb-4 imagecover">
+                            <img class="img-fluid rounded-3" src="img/circus.png" alt="circus">
+                            <div
+                                class="img-fluid bg-light bg-opacity-75 position-absolute d-none justify-content-center align-items-center w-100 h-100 top-0 rounded-3 cover">
+                                <i class="fa-solid fa-tent fa-2xl" style="color: #000000;"></i>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4">
-                        <img class="img-fluid rounded-3 cardimage" src="img/game.png" alt="joypad">
+                        <div class="position-relative mb-4 imagecover">
+                            <img class="img-fluid rounded-3" src="img/game.png" alt="controler">
+                            <div
+                                class="img-fluid bg-light bg-opacity-75 position-absolute d-none justify-content-center align-items-center w-100 h-100 top-0 rounded-3 cover">
+                                <i class="fa-solid fa-gamepad fa-2xl" style="color: #000000;"></i>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4">
-                        <img class="img-fluid rounded-3 cardimage" src="img/safe.png" alt="safe">
+                        <div class="position-relative mb-4 imagecover">
+                            <img class="img-fluid rounded-3" src="img/safe.png" alt="safe">
+                            <div
+                                class="img-fluid bg-light bg-opacity-75 position-absolute d-none justify-content-center align-items-center w-100 h-100 top-0 rounded-3 cover">
+                                <i class="fa-solid fa-vault fa-2xl" style="color: #000000;"></i>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4">
-                        <img class="img-fluid rounded-3 cardimage" src="img/submarine.png" alt="submarine">
+                        <div class="position-relative mb-4 imagecover">
+                            <img class="img-fluid rounded-3" src="img/submarine.png" alt="submarine">
+                            <div
+                                class="img-fluid bg-light bg-opacity-75 position-absolute d-none justify-content-center align-items-center w-100 h-100 top-0 rounded-3 cover">
+                                <i class="fa-solid fa-ship fa-2xl" style="color: #000000;"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- ABOUT -->
-        <div class="container-fluid backgroundgreen text-center text-white">
-            <div class="wrapper p-4">
+        <div class="wrapper p-4 backgroundgreen">
+            <div class="container text-center text-white">
                 <div class="row">
                     <!-- TITLE -->
                     <div class="col-12">
                         <h4>ABOUT</h4>
-                        <i class="fa-solid fa-star my-2" style="color: #ffffff;"></i>
+                        <div class="myline1"></div>
+                        <i class="fa-solid fa-star fa-lg my-2" style="color: #ffffff;"></i>
+                        <div class="myline1"></div>
                     </div>
                     <!-- TEXT -->
                     <div class="col-12 col-sm-6">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        <div class="mt-2 mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum
+                            dolor sit amet
+                            consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Lorem,
+                            ipsum dolor sit amet consectetur adipisicing elit.</div>
                     </div>
                     <div class="col-12 col-sm-6">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        <div class="mt-2 mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum
+                            dolor sit amet
+                            consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Lorem,
+                            ipsum dolor sit amet consectetur adipisicing elit.</div>
                     </div>
-                    <!-- BUTTON -->
+                    <!-- BUTTON 1 -->
                     <div class="col-12">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        <button type="button" class="btn buttonwhite mt-3"> <i
+                                class="fa-solid fa-download fa-lg me-2 downicon" style="color: #f7f7f7;"></i>
+                            Download</button>
                     </div>
                 </div>
 
@@ -118,22 +193,40 @@
                     <!-- TITLE -->
                     <div class="col-12 text-center">
                         <h4>CONTACT ME</h4>
-                        <i class="fa-solid fa-star my-2" style="color: #000000;"></i>
+                        <div class="myline2"></div>
+                        <i class="fa-solid fa-star fa-lg my-2" style="color: #000000;"></i>
+                        <div class="myline2"></div>
                     </div>
                     <!-- CONTACTS -->
                     <div class="col-12">
-                        <p>Name</p>
-                        <hr>
-                        <p>Email address</p>
-                        <hr>
-                        <p>Phone number</p>
-                        <hr>
-                        <p>Message</p>
-                        <hr class="mt-5">
+                        <form>
+                            <div class="col-3 mb-3">
+                                <input type="text" class="form-control border-0" placeholder="Name"
+                                    aria-describedby="nameHelp">
+                            </div>
+                            <hr>
+                            <div class="col-3 mb-3">
+                                <input type="email" class="form-control border-0" placeholder="Email">
+                            </div>
+                            <hr>
+                            <div class="col-3 mb-3">
+                                <input type="text" class="form-control border-0" placeholder="Phone"
+                                    aria-describedby="nameHelp">
+                            </div>
+                            <hr>
+                            <div class="col-3 mb-3">
+                                <textarea class="form-control border-0" id="exampleFormControlTextarea1"
+                                    rows="5">Message</textarea>
+
+                            </div>
+                            <hr>
+
+
+                        </form>
                     </div>
-                    <!-- BUTTON -->
+                    <!-- BUTTON 2 -->
                     <div class="col-12">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        <button type="button" class="btn buttongreen">Success</button>
                     </div>
 
                 </div>
@@ -142,8 +235,8 @@
     </main>
     <footer>
         <!-- INFO -->
-        <div class="container-fluid backgroundfooter1 text-center text-white">
-            <div class="wrapper py-3">
+        <div class="wrapper py-3 backgroundfooter1">
+            <div class="container text-center text-white">
                 <div class="row">
                     <div class="col-12 col-sm-4">
                         <h6>LOCATION</h6>
@@ -151,10 +244,14 @@
                     </div>
                     <div class="col-12 col-sm-4">
                         <h6>AROUND THE WEB</h6>
-                        <span class="mb-3 ms-2"><i class="fa-brands fa-facebook-f p-2" style="color: #ffffff;"></i></span>
-                        <span class="mb-3 ms-2"><i class="fa-brands fa-google-plus-g p-2" style="color: #ffffff;"></i></span>
-                        <span class="mb-3 ms-2"><i class="fa-brands fa-twitter p-2" style="color: #ffffff;"></i></span>
-                        <span class="mb-3 ms-2"><i class="fa-brands fa-linkedin-in p-2" style="color: #ffffff;"></i></span>
+                        <span class="mb-3 ms-2 footericon"><i class="fa-brands fa-facebook-f p-2"
+                                style="color: #ffffff;"></i></span>
+                        <span class="mb-3 ms-2 footericon"><i class="fa-brands fa-google-plus-g p-2"
+                                style="color: #ffffff;"></i></span>
+                        <span class="mb-3 ms-2 footericon"><i class="fa-brands fa-twitter p-2"
+                                style="color: #ffffff;"></i></span>
+                        <span class="mb-3 ms-2 footericon"><i class="fa-brands fa-linkedin-in p-2"
+                                style="color: #ffffff;"></i></span>
                     </div>
                     <div class="col-12 col-sm-4">
                         <h6>ABOUT FREELANCER</h6>
@@ -162,18 +259,19 @@
                             consectetur adipisicing elit. </p>
                     </div>
                 </div>
-               
+
             </div>
-           
-            
+
+
         </div>
         <div class="container-fluid backgrouddark text-white text-center">
             <div class="wrapper py-2">
                 <div class="row">
                     <div class="col-12">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                        Copyright <i class="fa-regular fa-copyright fa-2xs" style="color: #ffffff;"></i> Your website
+                        2019
                     </div>
-    
+
                 </div>
             </div>
         </div>
